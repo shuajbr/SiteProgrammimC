@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" class="mt-5 " href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="./index.css">
 
   </head>
   <body>
@@ -16,7 +16,7 @@
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-      <a class="navbar-brand" > <img src="../foto/logo e C.png" class="img-responsive " alt="Responsive image" width="70" ></a>
+      <a class="navbar-brand" > <img src="./foto/logo e C.png" class="img-responsive " alt="Responsive image" width="70" ></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -35,7 +35,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-        <a class="navbar-brand" href="../index.html">Home</a>
+        <a class="navbar-brand" href="./index.html">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -53,7 +53,7 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">C Exercises</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                         <a href="../1.Basic C programming exercises.html" class="h6 dropdown-item"> Basic C programming exercises</a>
+                         <a href="./1.Basic C programming exercises.html" class="h6 dropdown-item"> Basic C programming exercises</a>
                          <a href="#" class="h6 dropdown-item"><p class="h6">Bitwise operator exercises</p></a>
                          <a href="#" class="h6 dropdown-item"><p class="h6">If else exercises</p></a>
                          <a href="#" class="h6 dropdown-item"><p class="h6 ">Switch case exercises</p></a>
@@ -79,18 +79,18 @@
 </div>
       </nav>
 
-     <!-- Pjesa e ndjatht -->    
 
-     <div class=" bg-white">
-        <div class="row w-100">
-          <div class="col">
+        
 
-    
-     <div class="card bg-light mt-4 ml-auto mr-auto h5" style="max-width: 17rem;">
+<div class=" bg-white">
+    <div class="row w-100">
+      <div class="col">
+     <!-- Pjesa e ndjatht -->
+     <div class="card bg-light mt-4 ml-auto mr-auto h5" style="max-width: 18rem;">
       <div class="card-header">C Programming Exercises</div>
       <div class="card-body">
-        
-          <a href="../1.Basic C programming exercises.html"><p class="h6">Basic C programming exercises</p></a>
+
+          <a href="./1.Basic C programming exercises.html"><p class="h6">Basic C programming exercises</p></a>
           <a href="#"><p class="h6">Bitwise operator exercises</p></a>
           <a href="#"><p class="h6">If else exercises</p></a>
           <a href="#"><p class="h6 ">Switch case exercises</p></a>
@@ -102,11 +102,10 @@
           <a href="#"><p class="h6 ">String exercises</p></a>
           <a href="#"><p class="h6 ">Pointer exercises</p></a>
           <a href="#"><p class="h6 ">Files handling exercises</p></a>
-         
-          
        
       </div>
     </div>
+
 
 
          
@@ -115,61 +114,62 @@
         </div>
         <!-- Pjesa e mesme -->
         <div class="col w-50">
-            <div class=" container " >
+          <div class=" container " >
+          <h2 class="h2 font-weight-bold pt-4 pb-4" >Basic programming exercises and </br>solutions in C
+            </h2>
 
-            <h2 class="h2 font-weight-bold pt-3 pb-3">C program to perform input output of</br> all basic data types</h2>
-
-            <p>Write a C program to demonstrate input and output of all basic and derived types. How to use <code>scanf()</code> and <code>printf()</code> function perform input and output on primitive types in C programming.</p>
-            <div class="card border-dark mb-3">
-                <div class="card-body text-dark">
-                  <p class="card-text" ><b>Example</b></p>
-                  <p class="card-text"><b>Input</b></p>
-                  <p class="card-text" ><pre style="display: block;  padding: 9.5px; margin: 0 0 10px; font-size: 13px; line-height: 1.42857143; color: #333; word-break: break-all; word-wrap: break-word; background-color: #f5f5f5;border: 1px solid #ccc; border-radius: 4px;">Enter a character: C </pre></p>
-                  <p class="card-text"> <pre style="display: block;  padding: 9.5px; margin: 0 0 10px; font-size: 13px; line-height: 1.42857143; color: #333; word-break: break-all; word-wrap: break-word; background-color: #f5f5f5;border: 1px solid #ccc; border-radius: 4px;">a signed short value: -32768</pre></p>
-                  <p><b>Output</b></p>
-                  <p><pre style="display: block;  padding: 9.5px; margin: 0 0 10px; font-size: 13px; line-height: 1.42857143; color: #333; word-break: break-all; word-wrap: break-word; background-color: #f5f5f5;border: 1px solid #ccc; border-radius: 4px;">Entered character: 'C'</pre></p>
-                  <p><pre style="display: block;  padding: 9.5px; margin: 0 0 10px; font-size: 13px; line-height: 1.42857143; color: #333; word-break: break-all; word-wrap: break-word; background-color: #f5f5f5;border: 1px solid #ccc; border-radius: 4px;">You entered signed short: -32768</pre></p>
-                </div>
-              </div>
-
-            <h2 class="h2 font-weight-bold pt-3 pb-4"> Program to demonstrate input/output of all basic data types</h2>
-            <iframe src="http://onlinegdb.com/embed/SkT9kuU3D?theme=dark" class="ogdb_iframe" width="100%" class="border-dark" style="width: 1px;max-width: 100%;min-width: 100%;overflow: hidden;" height="500"></iframe>
-
-            <h2 class="h5 font-weight-bold pt-2 pb-4">Points to note:</h2>
-            <ul><li><code>\n</code> is an <a href="/2015/05/escape-sequence-characters.html">escape sequence character</a> used to print new line (move to next line).</li><li>The <code>getchar()</code> function reads single character and stores to some character variable. During a character input suppose we input <samp>C</samp> and then enter which is also considered as a character.  Internally, <code>getchar()</code> reads and stores <samp>C</samp> character to <var>charVal</var> and tries to store the enter character to <var>uCharVal</var>. This is because I have used an extra <code>getchar()</code> to eliminate the enter character.</li></ul>
-           
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            
+          <p class="h6 ">C programming is a stepping stone for many programmers in the programming world. C is best to learn internals of programming and know how a computer program works internally.</p>
+          </br>
+          <p class="h6">Since it is close to low level programming. Programming in C can be a nightmare for beginners if not practiced properly. However, you can learn and practice at Codeforwin step by step.</p>
+          </br>
+          <p class="h6">In this programming exercise we will focus on basics of C programming. After completing this exercise you will learn basic structure and semantics of a C program and how to write mathematical programs in C.          </p>
+          </br>
+          <p class="h6">If you are not a beginner, still reached here. Hold your breath I am sure you will find these exercises interesting.</p>
+          </br>
+      
+      
+          <h2 class="h2 font-weight-bold pt-3 pb-2" >Required knowledge </h2>
+          
+          <p class="h6"><a href="#">Operators, Data types, Variables and expression, Basic input/output</a></p>
+      
+          </br>
+         
+          <h2 class="h2 font-weight-bold pt-3 pb-4" >List of basic programming exercises</h2>
+          <ol class="list-group list-group-flush">
+            <a href="./1.Basic C programming exercises/1.html" class="list-group-item h6">1.  Write a C program to perform input/output of all basic data types.</a>
+            <a href="./1.Basic C programming exercises/2.html" class="list-group-item h6">2.  Write a C program to enter two numbers and find their sum.</a>
+            <a href="" class="list-group-item h6">3.  Write a C program to enter two numbers and perform all arithmetic operations.</a>
+            <a href="" class="list-group-item h6">4.  Write a C program to enter length and breadth of a rectangle and find its perimeter.</a>
+            <a href="" class="list-group-item h6">5.  Write a C program to enter length and breadth of a rectangle and find its area.</a>
+            <a href="" class="list-group-item h6">6.  Write a C program to enter radius of a circle and find its diameter, circumference and area.</a>
+            <a href="" class="list-group-item h6">7.  Write a C program to enter length in centimeter and convert it into meter and kilometer.</a>
+            <a href="" class="list-group-item h6">8.  Write a C program to enter temperature in Celsius and convert it into Fahrenheit.</a>
+            <a href="" class="list-group-item h6">9.  Write a C program to enter temperature in Fahrenheit and convert to Celsius</a>
+            <a href="" class="list-group-item h6">10. Write a C program to convert days into years, weeks and days.</a>
+            <a href="" class="list-group-item h6">11. Write a C program to find power of any number x ^ y.            </a>
+            <a href="" class="list-group-item h6">12. Write a C program to enter any number and calculate its square root.</a>
+            <a href="" class="list-group-item h6">13. Write a C program to enter two angles of a triangle and find the third angle.</a>
+            <a href="" class="list-group-item h6">14. Write a C program to enter base and height of a triangle and find its area.</a>
+            <a href="" class="list-group-item h6">15. Write a C program to calculate area of an equilateral triangle.</a>
+            <a href="" class="list-group-item h6">16. Write a C program to enter marks of five subjects and calculate total, average and percentage.</a>
+            <a href="" class="list-group-item h6">17. Write a C program to enter P, T, R and calculate Simple Interest.</a>
+            <a href="" class="list-group-item h6">18. Write a C program to enter P, T, R and calculate Compound Interest.</a>
             <center> <img src="https://www.guru99.com/images/1/012419_1229_WhatisCProg4.png" alt="Foto" class="p-3"  style="width: 2000px ;height:0px;"></center>
+
+
+
+
 
           </div>
         </br>
       </br>
         </div>
         <!-- Ketu eshte pjesa nfund-->
-        <div class="col w-0">
-            
+        <div class="col">
+
           <div class="card  mt-4 ml-auto mr-auto" style="width: 18rem;">
-          <img src="../foto/Foto te karda.jpg" class="card-img-top " alt="...">
+            <img src="./foto/Foto te karda.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Shuajb Ramadani</h5>
               <p class="card-text">Software developer, Blogger, Learner, Quran Lover...
